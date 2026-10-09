@@ -13,7 +13,12 @@ export type Tag =
   | 'HTML'
   | 'CSS'
   | 'Jinja'
-  | 'AWS Lightsail';
+  | 'AWS Lightsail'
+  | 'pytest'
+  | 'unittest'
+  | 'Vitest'
+  | 'Knex'
+  | 'SQLAlchemy';
 
 export type Project = {
   /**
