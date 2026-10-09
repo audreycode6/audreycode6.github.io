@@ -16,6 +16,10 @@ export type Tag =
   | 'AWS Lightsail';
 
 export type Project = {
+  /**
+   * A stable ID made for URLs. Must be unique.
+   * The project name in lowercase, with hyphens instead of spaces.
+   */
   slug: string;
   name: string;
   blurb: string;
