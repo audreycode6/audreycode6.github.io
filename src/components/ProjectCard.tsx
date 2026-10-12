@@ -4,12 +4,12 @@ type ProjectCardProps = { project: Project };
 
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <article>
+    <article className="project-card">
       <h3>{project.name}</h3>
 
       <p>{project.blurb}</p>
 
-      <ul>
+      <ul className="project-tags">
         {project.tags.map((tag) => (
           <li key={tag}>{tag}</li>
         ))}
