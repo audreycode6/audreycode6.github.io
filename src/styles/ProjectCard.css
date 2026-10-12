@@ -1,0 +1,60 @@
+.project-group {
+  display: grid;
+  padding: 10px;
+}
+
+.project-group h2 {
+  padding: 0 15px;
+}
+
+.project-card {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(182, 245, 225, 0.682);
+  border-radius: 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  outline: 5px dotted plum;
+}
+.project-links {
+  display: flex;
+  gap: 25px;
+  margin-top: auto;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 20px;
+  padding: 0;
+}
+
+.project-tags li {
+  list-style-type: none;
+  white-space: nowrap;
+  font-style: italic;
+  color: #555;
+}
+
+.project-tags li:hover {
+  color: rgba(20, 127, 86, 0.591);
+}
+
+.project-links a {
+  border: 2px solid #555;
+  padding: 5px 10px;
+  background-color: plum;
+  border-radius: 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+.project-links a:hover {
+  border: 2px solid black;
+  background-color: plum;
+  color: black;
+}
