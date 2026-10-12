@@ -1,4 +1,5 @@
 import type { Project } from '../content/types';
+import '../styles/ProjectCard.css';
 
 type ProjectCardProps = { project: Project };
 
