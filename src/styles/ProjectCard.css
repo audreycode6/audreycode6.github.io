@@ -28,33 +28,34 @@
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px 20px;
   padding: 0;
 }
 
 .project-tags li {
   list-style-type: none;
   white-space: nowrap;
-  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: 1px solid rgba(20, 127, 86, 0.737);
+  background-color: rgba(20, 127, 86, 0.591);
+  border-radius: 10px;
+  padding: 3px 5px;
+  margin: 5px;
+  font-size: small;
   color: #555;
 }
 
-.project-tags li:hover {
-  color: rgba(20, 127, 86, 0.591);
-}
-
 .project-links a {
-  border: 2px solid #555;
+  border: 2px solid black;
   padding: 5px 10px;
   background-color: plum;
   border-radius: 10px 5px 10px;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: black;
 }
 
 .project-links a:hover {
-  border: 2px solid black;
+  border: 2px solid #555;
   background-color: plum;
-  color: black;
+  color: #555;
 }

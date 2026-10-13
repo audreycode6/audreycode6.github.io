@@ -1,0 +1,31 @@
+.tag-filter {
+  padding-top: 10px;
+}
+
+.tag-filter button {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  outline: 2px solid rgba(20, 127, 86, 0.737);
+  background-color: rgba(20, 127, 86, 0.591);
+  border-radius: 10px;
+  padding: 2px 10px;
+  margin: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.tag-filter button:hover {
+  background-color: rgb(20, 127, 86);
+  color: white;
+}
+
+.tag-filter button[aria-pressed='true'] {
+  outline: 5px dotted plum;
+  background-color: rgb(20, 127, 86);
+  color: white;
+}
+
+.tag-filter button:focus-visible {
+  box-shadow: 0 0 0 3px #333;
+}

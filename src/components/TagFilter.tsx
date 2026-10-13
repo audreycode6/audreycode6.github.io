@@ -1,4 +1,5 @@
 import type { Tag } from '../content/types';
+import '../styles/TagFilter.css';
 
 type TagFilterProps = {
   tags: Tag[];
