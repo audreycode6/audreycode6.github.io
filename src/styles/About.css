@@ -1,0 +1,37 @@
+#about {
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.paragraphs {
+  padding: 4px;
+  background-color: rgba(182, 245, 225, 0.682);
+  border-radius: 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.paragraphs:hover {
+  outline: 5px dotted plum;
+}
+
+.paragraphs p {
+  margin: 10px;
+}
+
+#about a {
+  border: 2px solid black;
+  padding: 5px 10px;
+  background-color: plum;
+  border-radius: 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#about a:hover {
+  border: 2px solid #555;
+  background-color: plum;
+  color: #555;
+}
