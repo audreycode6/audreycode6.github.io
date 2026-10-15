@@ -50,16 +50,21 @@ export type Project = {
 
 export type ProjectStatus = 'shipped' | 'in-progress';
 
+export type YearMonth = {
+  year: number;
+  month?: number;
+};
+
 export type Milestone = {
   id: string;
   /**
    * The date when this milestone began
    */
-  periodStart: Date;
+  periodStart: YearMonth;
   /**
    * The date when this milestone ended
    */
-  periodEnd?: Date;
+  periodEnd?: YearMonth;
   title: string;
   body: string;
   artifacts?: Artifact[];
