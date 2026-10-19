@@ -1,0 +1,47 @@
+.journey {
+  padding: 0 15px;
+  display: grid;
+  padding: 10px;
+}
+
+.intro {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.milestone {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.263);
+  border-radius: 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.milestone p {
+  margin: 5px;
+}
+
+.artifact,
+.milestone-card time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.milestone-card time {
+  margin-top: 5px;
+}
+
+.milestone:hover {
+  outline: 5px dotted plum;
+}
+.milestone ol,
+li {
+  list-style: none;
+}
+
+.milestone li {
+  padding: 5px;
+  text-decoration: none;
+}

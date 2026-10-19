@@ -19,25 +19,29 @@ export function Projects() {
 
   return (
     <>
+      <h2>Projects</h2>
       <TagFilter tags={allTags} selected={selected} onSelect={handleSelect} />
-      {shipped.length > 0 && (
-        <div className="project-group">
-          <h2>Shipped</h2>
+      <div className="projects">
+        {shipped.length > 0 && (
+          <div className="project-group">
+            <h3>Shipped</h3>
 
-          {shipped.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
-          ))}
-        </div>
-      )}
-      {inProgress.length > 0 && (
-        <div className="project-group">
-          <h2>In progress</h2>
+            {shipped.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        )}
 
-          {inProgress.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
-          ))}
-        </div>
-      )}
+        {inProgress.length > 0 && (
+          <div className="project-group">
+            <h3>In progress</h3>
+
+            {inProgress.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        )}
+      </div>
     </>
   );
 }

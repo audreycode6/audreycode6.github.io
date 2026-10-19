@@ -27,7 +27,7 @@ export type Project = {
    */
   slug: string;
   name: string;
-  blurb: string;
+  blurb: Blurb;
   tags: Tag[];
   status: ProjectStatus;
   /**
@@ -48,6 +48,12 @@ export type Project = {
   poster?: string;
 };
 
+export type Blurb = {
+  what?: string;
+  why?: string;
+  learning?: string;
+};
+
 export type ProjectStatus = 'shipped' | 'in-progress';
 
 export type Milestone = {
@@ -55,14 +61,19 @@ export type Milestone = {
   /**
    * The date when this milestone began
    */
-  periodStart: Date;
+  periodStart: YearMonth;
   /**
    * The date when this milestone ended
    */
-  periodEnd?: Date;
+  periodEnd?: YearMonth;
   title: string;
   body: string;
   artifacts?: Artifact[];
+};
+
+export type YearMonth = {
+  year: number;
+  month?: number;
 };
 
 export type Artifact = {
