@@ -3,9 +3,14 @@
   margin-bottom: 20px;
 }
 
+h3 {
+  margin: 0;
+  padding: 5px;
+}
 .paragraphs {
-  padding: 4px;
-  background-color: rgba(182, 245, 225, 0.682);
+  /* padding: 4px; */
+  padding: 10px 20px;
+  background-color: rgba(128, 128, 128, 0.263);
   border-radius: 10px 5px 10px;
   display: flex;
   flex-direction: column;
@@ -20,11 +25,20 @@
   margin: 10px;
 }
 
+.fun-facts li {
+  list-style: inside;
+  padding: 10px 20px;
+}
+
 #about a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid black;
+  margin: 15px;
   padding: 5px 10px;
   background-color: plum;
-  border-radius: 10px 5px 10px;
+  border-radius: 10px;
   text-align: center;
   text-decoration: none;
   color: black;
