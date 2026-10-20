@@ -1,0 +1,19 @@
+.contact a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 15px;
+  padding: 5px 10px;
+  background-color: plum;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  border: 2px solid #555;
+  background-color: plum;
+  color: #555;
+}

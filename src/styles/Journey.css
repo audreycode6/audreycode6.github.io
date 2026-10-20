@@ -1,7 +1,5 @@
 .journey {
-  padding: 0 15px;
   display: grid;
-  padding: 10px;
 }
 
 .intro {
@@ -10,7 +8,6 @@
   padding: 0;
 }
 .milestone {
-  margin: 10px;
   padding: 10px;
   background-color: rgba(128, 128, 128, 0.263);
   border-radius: 10px 5px 10px;
@@ -37,7 +34,7 @@
   outline: 5px dotted plum;
 }
 .milestone ol,
-li {
+.milestone li {
   list-style: none;
 }
 

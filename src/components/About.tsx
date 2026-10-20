@@ -3,7 +3,7 @@ import '../styles/About.css';
 
 export function About() {
   return (
-    <>
+    <div className="about-section">
       <h2>{about.heading}</h2>
       <div className="paragraphs">
         {about.paragraphs.map((text, idx) => (
@@ -18,17 +18,6 @@ export function About() {
           ))}
         </ul>
       </div>
-
-      <a href="/AudreyTheriaultAllaireResume.pdf" download>
-        Download resume (PDF)
-      </a>
-      <a
-        href="https://www.linkedin.com/in/audrey-theriault-allaire/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Let's Connect!
-      </a>
-    </>
+    </div>
   );
 }
