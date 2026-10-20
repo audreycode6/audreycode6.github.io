@@ -1,14 +1,8 @@
-#about {
-  padding: 0 15px;
-  margin-bottom: 20px;
-}
-
-h3 {
+.about-section h3 {
   margin: 0;
   padding: 5px;
 }
 .paragraphs {
-  /* padding: 4px; */
   padding: 10px 20px;
   background-color: rgba(128, 128, 128, 0.263);
   border-radius: 10px 5px 10px;
@@ -28,24 +22,4 @@ h3 {
 .fun-facts li {
   list-style: inside;
   padding: 10px 20px;
-}
-
-#about a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  margin: 15px;
-  padding: 5px 10px;
-  background-color: plum;
-  border-radius: 10px;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-
-#about a:hover {
-  border: 2px solid #555;
-  background-color: plum;
-  color: #555;
 }

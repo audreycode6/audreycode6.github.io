@@ -1,29 +1,31 @@
 .project-group {
   display: grid;
-  padding: 10px;
+  gap: 1.5rem;
 }
 
 .project-card {
-  margin: 20px;
   background-color: rgba(128, 128, 128, 0.263);
   border-radius: 10px 5px 10px;
   display: flex;
   flex-direction: column;
 }
 
-.project-card h4 {
-  margin: 20px 0 10px 0;
-}
 .project-card:hover {
   outline: 5px dotted plum;
 }
+
+/* .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+} */
 
 .blurb {
   padding: 20px;
 }
 
 .blurb dt,
-dd {
+.blurb dd {
   list-style: inside;
   padding: 5px 20px;
 }
@@ -42,10 +44,11 @@ dd {
 }
 
 .project-tags {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: 0 20px;
+  gap: 5px;
+  margin: 0;
   padding: 0 20px;
 }
 
